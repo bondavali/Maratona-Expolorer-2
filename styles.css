@@ -1,0 +1,106 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    --bg-color: linear-gradient(90deg, rgba(2,2,3,1) 0%,
+  rgba(9,9,121,1) 67%, rgba(2,161,193,1) 100%);
+    --text-color: white;
+  }
+  
+  body{
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Share Tech', sans-serif;
+  }
+  
+  .container{
+  max-width: 300px;
+  text-align: center;
+  margin: 60px auto;
+  }
+  
+  img {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    max-width: 70%;
+    padding: 6px;
+  }
+  
+  h1{
+  position: relative;
+  font-size: 250%;
+  margin-top: 20px;
+  }
+  
+  p{
+    font-weight: 500;
+    font-size: 140%;
+    position: relative;
+    text-align: center;
+    top: 45px;
+    margin-bottom: 20px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .instagram{;
+    background-image: url("https://adesprint.com.br/wp-content/uploads/2021/07/instagram-background-gradient-colors_23-2147821882-350x350.jpg");
+    display: inline-block;
+    position: relative;
+    top: 64px;
+    padding: 14px 67px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 120%;
+  }
+  .instagram:hover, .twitter:hover, .linkedin:hover, .github:hover, footer:hover{
+  opacity: 0.7;
+  transition: 500ms;
+  }
+  
+  .twitter{
+    background-color: rgb(29 , 161, 242);
+    display: inline-block;
+    position: relative;
+    top: 78px;
+    padding: 14px 78px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 120%;
+  }
+  
+  .linkedin{
+    background-color: rgb(0 , 119, 181);
+    display: inline-block;
+    position: relative;
+    top: 92px;
+    padding: 14px 71px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 120%;
+  }
+  
+  .github{
+    background-color: rgb(38, 36, 36);
+    display: inline-block;
+    position: relative;
+    top: 106px;
+    padding: 14px 79px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 120%;
+  }
+  
+  footer{
+    position: relative;
+    text-align: center;
+    top: 110px;
+    padding: 20px 0px 34px 15px;
+  }
